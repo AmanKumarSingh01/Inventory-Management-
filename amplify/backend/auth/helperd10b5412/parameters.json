@@ -1,0 +1,55 @@
+{
+    "identityPoolName": "helperd10b5412_identitypool_d10b5412",
+    "allowUnauthenticatedIdentities": false,
+    "resourceNameTruncated": "helperd10b5412",
+    "userPoolName": "helperd10b5412_userpool_d10b5412",
+    "autoVerifiedAttributes": [
+        "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+        "SMS Text Message"
+    ],
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [],
+    "requiredAttributes": [
+        "email"
+    ],
+    "userpoolClientGenerateSecret": true,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientWriteAttributes": [
+        "email"
+    ],
+    "userpoolClientReadAttributes": [
+        "email"
+    ],
+    "userpoolClientLambdaRole": "helperd10b5412_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": false,
+    "sharedId": "d10b5412",
+    "resourceName": "helperd10b5412",
+    "authSelections": "identityPoolAndUserPool",
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    },
+    "unauthRoleArn": {
+        "Fn::GetAtt": [
+            "UnauthRole",
+            "Arn"
+        ]
+    },
+    "useDefault": "default",
+    "usernameAttributes": [
+        "email"
+    ],
+    "userPoolGroupList": [],
+    "serviceName": "Cognito",
+    "dependsOn": []
+}

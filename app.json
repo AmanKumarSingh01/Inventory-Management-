@@ -4,23 +4,21 @@
     "slug": "Helper",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Logo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/Logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/Logo.png"
     }
   }
 }
